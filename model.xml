@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="legendposition" value="312,136"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="vertical"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="4"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="ejemplocajeroautomatico">
+			<feature mandatory="true" name="Retiros"/>
+			<feature mandatory="true" name="ConsultarSaldo"/>
+			<feature name="Transferencias"/>
+			<feature name="Consignaciones"/>
+			<feature mandatory="true" name="ListadoOperaciones"/>
+			<feature name="Auditoria"/>
+			<feature name="SaldoReducido"/>
+		</and>
+	</struct>
+</featureModel>
